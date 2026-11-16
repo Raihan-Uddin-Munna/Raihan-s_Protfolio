@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#07111d">
+    <meta name="description"
+        content="Raihan Uddin Munna — Network Engineering, Infrastructure and Cybersecurity Portfolio">
+    <title>Mohammed Raihan | Network Engineering</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js" defer></script> -->
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Background -->
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <!-- Side dot navigation -->
+    <nav class="dot-nav" aria-label="Section navigation">
+        <a href="#home" class="dot-link active" aria-label="Home" data-label="Home"></a>
+        <a href="#about" class="dot-link" aria-label="About" data-label="About"></a>
+        <a href="#journey" class="dot-link" aria-label="Journey" data-label="Journey"></a>
+        <a href="#skills" class="dot-link" aria-label="Skills" data-label="Skills"></a>
+        <a href="#projects" class="dot-link" aria-label="Projects" data-label="Projects"></a>
+        <a href="#credentials" class="dot-link" aria-label="Credentials" data-label="Credentials"></a>
+        <a href="#terminal" class="dot-link" aria-label="Terminal" data-label="Terminal"></a>
+        <a href="#contact" class="dot-link" aria-label="Contact" data-label="Contact"></a>
+    </nav>
+
+    <!-- Header -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#home" class="brand" aria-label="Raihan home">
+                <span class="brand-mark">R<span>.</span></span>
+                <span class="brand-copy">
+                    <strong>RAIHAN<span>.</span></strong>
+                    <small>NETWORKING / CYBER SECURITY</small>
+                </span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#credentials">Credentials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a class="resume-button" href="resume.pdf" target="_blank" rel="noopener">
+                    <i class="fa-regular fa-file-pdf"></i>
+                    <span>View Resume</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square resume-arrow"></i>
+                </a>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"
+                    aria-controls="navLinks">
+                    <span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero section-anchor" id="home">
+            <div class="container hero-layout">
+                <div class="hero-copy reveal">
+                    <div class="availability">
+                        <span class="availability-dot"></span>
+                        OPEN TO JUNIOR NETWORKING OPPORTUNITIES
+                    </div>
+
+                    <p class="eyebrow hero-eyebrow">
+                        NETWORK ENGINEERING <span>/</span> CYBER SECURITY
+                    </p>
+
+                    <h1>
+                        Building reliable<br>
+                        <span class="text-accent">networks.</span>
+                        <span class="hero-subtitle">Learning to secure them.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I'm <strong>Mohammed Raihan</strong>, a Computer Science and Engineering student driven by a
+                        deeper understanding of how networks connect, systems communicate, and infrastructure stays
+                        reliable. My focus is network engineering, routing and switching, and security—built through
+                        hands-on labs, technical experimentation, and a commitment to understanding not just what works,
+                        but why.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">
+                            Explore Projects
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a class="button button-secondary" href="#contact">
+                            Let's Connect
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-proof">
+                        <div class="proof-item">
+                            <span class="proof-number">01</span>
+                            <span>Hands-on<br>network labs</span>
+                        </div>
+                        <div class="proof-item">
+                            <span class="proof-number">02</span>
+                            <span>Documented<br>technical work</span>
+                        </div>
+                        <div class="proof-item">
+                            <span class="proof-number">03</span>
+                            <span>Security-focused<br>learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portrait and overlapping information cards -->
+                <div class="hero-visual reveal delay-1">
+                    <div class="portrait-frame">
+                        <div class="portrait-topline">
+                            <span><i class="fa-solid fa-circle"></i> PROFILE / 001</span>
+                            <span>CTG, BD</span>
+                        </div>
+
+                        <div class="portrait-image-wrap">
+                            <img src="../Image/Profile.jpeg" class="portrait-image" alt="Portrait of Raihan Uddin Munna"
+                                id="profileImage">
+                            <div class="portrait-placeholder" id="portraitPlaceholder">
+                                <i class="fa-regular fa-user"></i>
+                                <strong>YOUR PROFILE PHOTO</strong>
+                                <span>Add profile.jpg beside index10.html</span>
+                            </div>
+                            <div class="portrait-shade"></div>
+                            <div class="portrait-name">
+                                <span>NETWORKING / SYSTEMS</span>
+                                <!-- <strong class="person-name"> Mohameed Raihan</strong> -->
+                            </div>
+                        </div>
+
+                        <div class="portrait-bottomline">
+                            <span>LEARN <b>/</b> BUILD <b>/</b> IMPROVE</span>
+                            <span class="portrait-status"><i></i> IN PROGRESS</span>
+                        </div>
+                    </div>
+
+                    <div class="float-card float-card-focus">
+                        <span class="float-card-icon"><i class="fa-solid fa-network-wired"></i></span>
+                        <div>
+                            <small>CURRENT FOCUS</small>
+                            <strong>Routing &amp; Switching</strong>
+                            <span>CCNA / MTCNA</span>
+                        </div>
+                    </div>
+
+                    <div class="float-card float-card-lab">
+                        <span class="float-card-icon"><i class="fa-solid fa-terminal"></i></span>
+                        <div>
+                            <small>LAB WORKFLOW</small>
+                            <strong>Configure. Verify.</strong>
+                            <span>Document. Troubleshoot.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-bottom container">
+                <span>BASED IN CHATTOGRAM, BANGLADESH</span>
+                <span class="hero-bottom-line"></span>
+                <a href="#about">SCROLL TO EXPLORE <i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section section-anchor" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">01 / ABOUT</p>
+                        <h2>Curious by nature.<br><span class="text-accent">Practical by design.</span></h2>
+                    </div>
+                    <p class="section-intro">
+                        Building technical confidence through structured learning,
+                        repeatable labs, and clear documentation.
+                    </p>
+                </div>
+
+                <div class="about-layout">
+                    <div class="about-main reveal">
+                        <p class="about-lead">
+                            <strong>Networks, systems, and the reasoning behind them.</strong>
+                        </p>
+                        <p>
+                            I’m building my expertise in network engineering through a combination of technical study,
+                            hands-on lab work, and systematic troubleshooting.
+
+                            My work focuses on understanding how networks are designed, how devices communicate, and
+                            what happens when connectivity breaks down. I practise IPv4 subnetting, VLANs, switching,
+                            routing protocols, and network troubleshooting in Cisco Packet Tracer, documenting
+                            configurations and testing connectivity to validate what I learn.
+
+                            With a foundation in web development, I also understand the application layer and its
+                            relationship with the underlying network infrastructure.
+
+                            My direction is clear: develop strong networking fundamentals, gain practical operational
+                            experience, and progress toward network security and defensive cybersecurity. I value
+                            technical accuracy, clear documentation, and solutions that are reliable in practice — not
+                            just correct on paper.
+                        </p>
+                        <p>
+                            I also have a web-development foundation, which helps me
+                            understand applications and the systems they depend on.
+                            Over time, I want to build on networking fundamentals and
+                            move deeper into network security and defensive cybersecurity.
+                        </p>
+
+                        <div class="about-principles">
+                            <article class="principle-card">
+                                <span>01</span>
+                                <div>
+                                    <h3>Build, don't just read</h3>
+                                    <p>Test concepts in labs and verify results with commands.</p>
+                                </div>
+                            </article>
+                            <article class="principle-card">
+                                <span>02</span>
+                                <div>
+                                    <h3>Document the process</h3>
+                                    <p>Keep configurations, screenshots, findings, and lessons.</p>
+                                </div>
+                            </article>
+                            <article class="principle-card">
+                                <span>03</span>
+                                <div>
+                                    <h3>Think about security</h3>
+                                    <p>Learn segmentation, access control, and defensive practices.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <aside class="profile-details reveal delay-1">
+                        <div class="details-header">
+                            <span class="details-icon"><i class="fa-regular fa-id-card"></i></span>
+                            <div>
+                                <small>PROFILE OVERVIEW</small>
+                                <h3>Technical Snapshot</h3>
+                            </div>
+                        </div>
+
+                        <div class="detail-row">
+                            <span>Name</span>
+                            <strong>Mohammed Raihan</strong>
+                        </div>
+                        <div class="detail-row">
+                            <span>Academic Background</span>
+                            <strong>BSc in Computer Science & Engineering · In Progress
+                            </strong>
+                        </div>
+                        <div class="detail-row">
+                            <span>Location</span>
+                            <strong>Chattogram, Bangladesh</strong>
+                        </div>
+                        <div class="detail-row">
+                            <span>Professional Training</span>
+                            <strong>CCNA & MTCNA</strong>
+                        </div>
+                        <div class="detail-row">
+                            <span>Core Discipline</span>
+                            <strong>Network Engineering & Infrastructure</strong>
+                        </div>
+                        <div class="detail-row">
+                            <span>Practical Experience</span>
+                            <strong>Network Simulation · Routing & Switching Labs</strong>
+                        </div>
+                        <div class="detail-row">
+                            <span>Technical Interests</span>
+                            <strong>Network Security · offensive Cybersecurity</strong>
+                        </div>
+                        <div class="detail-row">
+                            <span>Career Focus</span>
+                            <strong>Network Operations & Infrastructure Security</strong>
+                        </div>
+
+                        <a class="text-link" href="https://www.linkedin.com/in/mohammed-raihan-76505a318/"
+                            target="_blank" rel="noopener">
+                            Explore my Linkdin
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Journey -->
+        <section class="section section-muted section-anchor" id="journey">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">02 / JOURNEY</p>
+                        <h2>A focused path into<br>
+                            <span class="text-accent">network engineering.</span>
+                        </h2>
+                    </div>
+                    <p class="section-intro">
+                        From computer science and application development to
+                        network engineering and security, each stage builds on
+                        the knowledge and practical skills developed along the way.
+                    </p>
+                </div>
+
+                <div class="journey-list">
+
+                    <!-- 01: Academic Foundation -->
+                    <article class="journey-item reveal">
+                        <div class="journey-marker"><span>01</span></div>
+                        <div class="journey-content">
+                            <div class="journey-meta">
+                                <span>01 / FOUNDATION</span>
+                                <span>ACADEMICS</span>
+                            </div>
+                            <h3>
+                                <i class="fa-solid fa-graduation-cap journey-title-icon" aria-hidden="true"></i>
+                                <span>Computer Science &amp; Engineering</span>
+                            </h3>
+                            <p class="journey-subtitle">Academic Foundation</p>
+                            <p>
+                                Pursuing a BSc in Computer Science and Engineering,
+                                building a foundation in programming, computer
+                                systems, data structures, and the principles behind
+                                modern computing. This background provides the
+                                technical basis for understanding software,
+                                infrastructure, and networked systems.
+                            </p>
+                            <div class="tag-list">
+                                <span><i class="fa-solid fa-code"></i> Programming Fundamentals</span>
+                                <span><i class="fa-solid fa-laptop-code"></i> Object-Oriented Programming</span>
+                                <span><i class="fa-solid fa-diagram-project"></i> Data Structures & Algorithms</span>
+                                <span><i class="fa-solid fa-microchip"></i> Computer Organization & Architecture</span>
+                                <span><i class="fa-solid fa-server"></i> Operating Systems</span>
+                                <span><i class="fa-solid fa-database"></i> Database Management Systems</span>
+                                <span><i class="fa-solid fa-network-wired"></i> Computer Networks</span>
+                                <span><i class="fa-solid fa-calculator"></i> Discrete Mathematics</span>
+                                <span><i class="fa-solid fa-square-root-variable"></i> Digital Logic Design</span>
+                                <span><i class="fa-solid fa-code-branch"></i> Software Engineering</span>
+                                <span><i class="fa-solid fa-globe"></i> Web Technologies</span>
+                                <span><i class="fa-solid fa-chart-line"></i> Probability & Statistics</span>
+                                <span><i class="fa-solid fa-brain"></i> Artificial Intelligence Fundamentals</span>
+                                <span><i class="fa-solid fa-calculator"></i> Numerical Methods</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 02: Full-Stack Development -->
+                    <article class="journey-item reveal">
+                        <div class="journey-marker"><span>02</span></div>
+                        <div class="journey-content">
+                            <div class="journey-meta">
+                                <span>02 / DEVELOPMENT</span>
+                                <span>APPLICATIONS</span>
+                            </div>
+                            <h3>
+                                <i class="fa-solid fa-code journey-title-icon" aria-hidden="true"></i>
+                                <span>Full-Stack Web Development</span>
+                            </h3>
+                            <p class="journey-subtitle">MERN Stack</p>
+                            <p>
+                                Developing web applications with JavaScript, React,
+                                Node.js, Express, and MongoDB. This experience
+                                strengthened my understanding of application
+                                architecture, APIs, client-server communication,
+                                data handling, and the services that allow
+                                applications to operate across networks.
+                            </p>
+                            <div class="tag-list">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 03: Network Engineering -->
+                    <article class="journey-item reveal">
+                        <div class="journey-marker"><span>03</span></div>
+                        <div class="journey-content">
+                            <div class="journey-meta">
+                                <span>03 / NETWORK ENGINEERING</span>
+                                <span>CURRENT FOCUS</span>
+                            </div>
+                            <h3>
+                                <i class="fa-solid fa-network-wired journey-title-icon" aria-hidden="true"></i>
+                                <span>Network Engineering</span>
+                            </h3>
+                            <p class="journey-subtitle">CCNA · Routing &amp; Switching</p>
+                            <p>
+                                Studying enterprise networking through structured
+                                training and hands-on Cisco Packet Tracer labs.
+                                Working with TCP/IP, subnetting, VLSM, VLANs,
+                                trunking, inter-VLAN routing, STP, EtherChannel,
+                                static routing, RIP, EIGRP, OSPF, and systematic
+                                connectivity troubleshooting.
+                            </p>
+                            <div class="tag-list">
+                                <span>TCP/IP</span>
+                                <span>IPv4 / VLSM</span>
+                                <span>VLANs</span>
+                                <span>STP</span>
+                                <span>EtherChannel</span>
+                                <span>RIP / EIGRP</span>
+                                <span>OSPF</span>
+                                <span>Packet Tracer</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 04: Network Administration -->
+                    <article class="journey-item reveal">
+                        <div class="journey-marker"><span>04</span></div>
+                        <div class="journey-content">
+                            <div class="journey-meta">
+                                <span>04 / ADMINISTRATION</span>
+                                <span>MIKROTIK</span>
+                            </div>
+                            <h3>
+                                <i class="fa-solid fa-server journey-title-icon" aria-hidden="true"></i>
+                                <span>Network Administration</span>
+                            </h3>
+                            <p class="journey-subtitle">MTCNA · MikroTik RouterOS</p>
+                            <p>
+                                Developing practical knowledge of MikroTik RouterOS,
+                                router configuration, IP addressing, routing,
+                                firewall fundamentals, network management, and
+                                operational troubleshooting. The focus is on
+                                understanding configuration behaviour, verifying
+                                connectivity, and maintaining reliable network
+                                services in lab environments.
+                            </p>
+                            <div class="tag-list">
+                                <span>MikroTik RouterOS</span>
+                                <span>IP Configuration</span>
+                                <span>Routing</span>
+                                <span>Firewall Basics</span>
+                                <span>Network Management</span>
+                                <span>Troubleshooting</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 05: Cybersecurity -->
+                    <article class="journey-item reveal">
+                        <div class="journey-marker"><span>05</span></div>
+                        <div class="journey-content">
+                            <div class="journey-meta">
+                                <span>05 / SECURITY</span>
+                                <span>DEVELOPING NEXT</span>
+                            </div>
+                            <h3>
+                                <i class="fa-solid fa-shield-halved journey-title-icon" aria-hidden="true"></i>
+                                <span>Cybersecurity</span>
+                            </h3>
+                            <p class="journey-subtitle">Security Operations · Network Security</p>
+                            <p>
+                                Building on networking fundamentals to study Linux,
+                                packet analysis, system and network logs, access
+                                control, security monitoring, and incident response.
+                                The objective is to understand how to investigate
+                                suspicious activity, identify potential threats,
+                                and strengthen the security of networked systems.
+                            </p>
+                            <div class="tag-list">
+                                <span>Linux</span>
+                                <span>Wireshark</span>
+                                <span>Log Analysis</span>
+                                <span>ACLs</span>
+                                <span>Security Monitoring</span>
+                                <span>Incident Response</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 06: Advanced Security -->
+                    <article class="journey-item reveal">
+                        <div class="journey-marker"><span>06</span></div>
+                        <div class="journey-content">
+                            <div class="journey-meta">
+                                <span>06 / SPECIALIZATION</span>
+                                <span>LONG-TERM DIRECTION</span>
+                            </div>
+                            <h3>
+                                <i class="fa-solid fa-crosshairs journey-title-icon" aria-hidden="true"></i>
+                                <span>Advanced Security Specialization</span>
+                            </h3>
+                            <p class="journey-subtitle">Network Security · Penetration Testing · Red Team</p>
+                            <p>
+                                Progressing toward advanced network security,
+                                penetration testing, and red-team methodologies
+                                through structured study and authorized lab
+                                environments. The long-term goal is to develop
+                                the ability to assess security weaknesses,
+                                understand attack techniques, and apply appropriate
+                                defensive measures through increasingly complex
+                                technical projects.
+                            </p>
+                            <div class="tag-list">
+                                <span>Network Security</span>
+                                <span>Penetration Testing</span>
+                                <span>Security Assessment</span>
+                                <span>Red-Team Fundamentals</span>
+                                <span>Authorized Labs</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-anchor" id="skills">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">03 / TECHNICAL SKILLS</p>
+                        <h2>Tools, concepts &amp;<br>
+                            <span class="text-accent">working knowledge.</span>
+                        </h2>
+                    </div>
+
+                    <p class="section-intro">
+                        A growing skill set built around networking fundamentals,
+                        practical troubleshooting, and systems knowledge.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <!-- SK / 01: Networking & Routing -->
+                    <article class="skill-card reveal">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">
+                                <i class="fa-solid fa-network-wired"></i>
+                            </span>
+                            <span class="skill-index">SK / 01</span>
+                        </div>
+
+                        <h3>Networking &amp; Routing</h3>
+                        <p>
+                            Understanding network architecture, IP addressing, switching,
+                            routing protocols, and network connectivity through practical labs.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>OSI &amp; TCP/IP Models</span>
+                            <span>IPv4 / IPv6 Addressing</span>
+                            <span>Subnetting &amp; VLSM</span>
+                            <span>CIDR</span>
+                            <span>VLANs</span>
+                            <span>Access &amp; Trunk Ports</span>
+                            <span>Inter-VLAN Routing</span>
+                            <span>STP / RSTP</span>
+                            <span>EtherChannel</span>
+                            <span>Static Routing</span>
+                            <span>RIPv2</span>
+                            <span>EIGRP</span>
+                            <span>OSPF</span>
+                            <span>OSPF Areas</span>
+                            <span>DR / BDR Concepts</span>
+                            <span>NAT / PAT</span>
+                            <span>DHCP</span>
+                            <span>DNS Fundamentals</span>
+                            <span>IPv4 Troubleshooting</span>
+                            <span>Network Connectivity Testing</span>
+                        </div>
+                    </article>
+
+                    <!-- SK / 02: Network Operations -->
+                    <article class="skill-card reveal delay-1">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </span>
+                            <span class="skill-index">SK / 02</span>
+                        </div>
+
+                        <h3>Network Operations</h3>
+                        <p>
+                            Performing network device configuration, connectivity verification,
+                            monitoring, and systematic troubleshooting in practical lab environments.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Cisco IOS CLI</span>
+                            <span>MikroTik RouterOS</span>
+                            <span>WinBox</span>
+                            <span>Device Configuration</span>
+                            <span>Interface Management</span>
+                            <span>IP Configuration</span>
+                            <span>Routing Table Analysis</span>
+                            <span>ARP Table Inspection</span>
+                            <span>MAC Address Table</span>
+                            <span>Ping</span>
+                            <span>Traceroute</span>
+                            <span>Telnet / SSH</span>
+                            <span>Show Commands</span>
+                            <span>Configuration Backup</span>
+                            <span>Connectivity Testing</span>
+                            <span>Interface Status Verification</span>
+                            <span>Network Troubleshooting</span>
+                            <span>Cisco Packet Tracer</span>
+                            <span>Network Documentation</span>
+                            <span>Basic Network Monitoring</span>
+                        </div>
+                    </article>
+
+                    <!-- SK / 03: MikroTik Networking -->
+                    <article class="skill-card reveal delay-2">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </span>
+                            <span class="skill-index">SK / 03</span>
+                        </div>
+
+                        <h3>MikroTik Networking (MTCNA)</h3>
+                        <p>
+                            Learning MikroTik RouterOS configuration and basic network
+                            management through practical labs.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>RouterOS Fundamentals</span>
+                            <span>IP Addressing</span>
+                            <span>DHCP Server &amp; Client</span>
+                            <span>DNS Configuration</span>
+                            <span>Static Routing</span>
+                            <span>Firewall</span>
+                            <span>Source &amp; Destination NAT</span>
+                            <span>Bridge &amp; Interfaces</span>
+                            <span>Bandwidth Management</span>
+                            <span>Simple Queues</span>
+                            <span>WinBox</span>
+                        </div>
+                    </article>
+
+                    <!-- SK / 04: Operating Systems -->
+                    <article class="skill-card reveal">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">
+                                <i class="fa-brands fa-linux"></i>
+                            </span>
+                            <span class="skill-index">SK / 04</span>
+                        </div>
+
+                        <h3>Operating Systems</h3>
+                        <p>
+                            Building command-line confidence and understanding
+                            common system operations.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Linux CLI</span>
+                            <span>Files &amp; Permissions</span>
+                            <span>Processes</span>
+                            <span>Windows</span>
+                            <span>Shell Basics</span>
+                        </div>
+                    </article>
+
+                    <!-- SK / 05: Web Development -->
+                    <article class="skill-card reveal delay-1">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </span>
+                            <span class="skill-index">SK / 05</span>
+                        </div>
+
+                        <h3>Web Development</h3>
+                        <p>
+                            A foundation in modern web technologies and full-stack
+                            application development, supporting a broader understanding
+                            of software and networked applications.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Responsive Web Design</span>
+                            <span>Tailwind CSS</span>
+                            <span>DaisyUI</span>
+                            <span>JavaScript (ES6+)</span>
+                            <span>React.js</span>
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>REST APIs</span>
+                            <span>JSON</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Frontend Development</span>
+                            <span>Backend Fundamentals</span>
+                            <span>Full-Stack Development</span>
+                        </div>
+                    </article>
+
+                    <!-- Learning Principle -->
+                    <article class="skill-card skill-card-note reveal delay-2">
+                        <span class="skill-index">LEARNING PRINCIPLE</span>
+
+                        <h3>Understand the why.</h3>
+
+                        <p>
+                            I aim to explain what a configuration does, verify its result,
+                            identify failure points, and document how I solved them.
+                        </p>
+
+                        <a href="#projects" class="text-link">
+                            See practical projects
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                </div>
+
+                <p class="skills-disclaimer">
+                    Skills reflect my current learning and lab practice; proficiency grows
+                    with continued hands-on work.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- PROJECTS — PREMIUM EDITION -->
+        <section class="section section-muted section-anchor" id="projects">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">04 / SELECTED PROJECTS</p>
+                        <h2>Engineering in practice.<br>
+                            <span class="text-accent">Documented with purpose.</span>
+                        </h2>
+                    </div>
+                    <p class="section-intro">
+                        A collection of practical networking, infrastructure
+                        and security projects, supported by technical
+                        documentation and verification.
+                    </p>
+                </div>
+
+                <div class="project-toolbar reveal">
+                    <div>
+                        <span>PROJECT ARCHIVE</span>
+                        <span class="toolbar-count" id="projectCount">05 PROJECTS</span>
+                    </div>
+
+                    <div class="project-filters" aria-label="Filter projects">
+                        <button class="filter-button active" data-filter="all" aria-pressed="true">All</button>
+                        <button class="filter-button" data-filter="network" aria-pressed="false">Networking</button>
+                        <button class="filter-button" data-filter="security" aria-pressed="false">Security</button>
+                        <button class="filter-button" data-filter="web" aria-pressed="false">Development</button>
+                    </div>
+                </div>
+
+                <div class="project-grid" id="projectList">
+
+                    <!-- Project 001 -->
+                    <article class="project-card reveal" data-category="network" data-project-index="0"
+                        data-project="eigrp" tabindex="0" role="button"
+                        aria-label="Explore Enterprise EIGRP Routing Lab">
+
+                        <div class="project-card-visual">
+                            <div class="project-card-image project-placeholder">
+                                <i class="fa-solid fa-diagram-project"></i>
+                                <span>TOPOLOGY / 001</span>
+                            </div>
+                            <span class="project-card-number">PROJECT / 001</span>
+                            <span class="project-card-open">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </div>
+
+                        <div class="project-card-content">
+                            <div class="project-card-meta">
+                                <span>NETWORK ENGINEERING</span>
+                                <span>ROUTING</span>
+                            </div>
+                            <h3>Enterprise EIGRP Routing Lab</h3>
+                            <p>
+                                Multi-router dynamic routing, neighbour
+                                relationships, route selection and
+                                network failure testing.
+                            </p>
+                            <div class="project-card-tags">
+                                <span>Cisco IOS</span>
+                                <span>EIGRP</span>
+                                <span>Packet Tracer</span>
+                            </div>
+                            <div class="project-card-footer">
+                                <span class="project-status">
+                                    <i></i> In Progress
+                                </span>
+                                <span class="project-explore">
+                                    Explore project <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 002 -->
+                    <article class="project-card reveal" data-category="network" data-project-index="1"
+                        data-project="vlan" tabindex="0" role="button"
+                        aria-label="Explore Enterprise Office VLAN Network">
+
+                        <div class="project-card-visual">
+                            <div class="project-card-image project-placeholder">
+                                <i class="fa-solid fa-network-wired"></i>
+                                <span>TOPOLOGY / 002</span>
+                            </div>
+                            <span class="project-card-number">PROJECT / 002</span>
+                            <span class="project-card-open">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </div>
+
+                        <div class="project-card-content">
+                            <div class="project-card-meta">
+                                <span>NETWORK ENGINEERING</span>
+                                <span>SWITCHING</span>
+                            </div>
+                            <h3>Enterprise Office VLAN Network</h3>
+                            <p>
+                                Department-based network segmentation,
+                                trunk configuration, inter-VLAN routing
+                                and connectivity isolation.
+                            </p>
+                            <div class="project-card-tags">
+                                <span>VLAN</span>
+                                <span>802.1Q</span>
+                                <span>STP</span>
+                            </div>
+                            <div class="project-card-footer">
+                                <span class="project-status">
+                                    <i></i> In Progress
+                                </span>
+                                <span class="project-explore">
+                                    Explore project <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 003 -->
+                    <article class="project-card reveal" data-category="network" data-project-index="2"
+                        data-project="vlsm" tabindex="0" role="button" aria-label="Explore VLSM Office Network Design">
+
+                        <div class="project-card-visual">
+                            <div class="project-card-image project-placeholder">
+                                <i class="fa-solid fa-sitemap"></i>
+                                <span>DESIGN / 003</span>
+                            </div>
+                            <span class="project-card-number">PROJECT / 003</span>
+                            <span class="project-card-open">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </div>
+
+                        <div class="project-card-content">
+                            <div class="project-card-meta">
+                                <span>NETWORK DESIGN</span>
+                                <span>IP ADDRESSING</span>
+                            </div>
+                            <h3>VLSM Office Network Design</h3>
+                            <p>
+                                Structured IPv4 subnet planning,
+                                departmental address allocation,
+                                gateway planning and verification.
+                            </p>
+                            <div class="project-card-tags">
+                                <span>IPv4</span>
+                                <span>VLSM</span>
+                                <span>Subnetting</span>
+                            </div>
+                            <div class="project-card-footer">
+                                <span class="project-status">
+                                    <i></i> Completed
+                                </span>
+                                <span class="project-explore">
+                                    Explore project <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 004 -->
+                    <article class="project-card reveal" data-category="security" data-project-index="3"
+                        data-project="linux" tabindex="0" role="button"
+                        aria-label="Explore Linux Security Fundamentals">
+
+                        <div class="project-card-visual">
+                            <div class="project-card-image project-placeholder">
+                                <i class="fa-solid fa-shield-halved"></i>
+                                <span>SECURITY / 004</span>
+                            </div>
+                            <span class="project-card-number">PROJECT / 004</span>
+                            <span class="project-card-open">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </div>
+
+                        <div class="project-card-content">
+                            <div class="project-card-meta">
+                                <span>SYSTEMS</span>
+                                <span>SECURITY</span>
+                            </div>
+                            <h3>Linux &amp; Security Fundamentals</h3>
+                            <p>
+                                Linux command-line practice, permissions,
+                                user management, system inspection
+                                and networking utilities.
+                            </p>
+                            <div class="project-card-tags">
+                                <span>Linux</span>
+                                <span>Bash</span>
+                                <span>Security</span>
+                            </div>
+                            <div class="project-card-footer">
+                                <span class="project-status">
+                                    <i></i> In Progress
+                                </span>
+                                <span class="project-explore">
+                                    Explore project <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 005 -->
+                    <article class="project-card reveal" data-category="web" data-project-index="4"
+                        data-project="portfolio" tabindex="0" role="button"
+                        aria-label="Explore Network Engineering Portfolio">
+
+                        <div class="project-card-visual">
+                            <div class="project-card-image project-placeholder">
+                                <i class="fa-solid fa-code"></i>
+                                <span>DEVELOPMENT / 005</span>
+                            </div>
+                            <span class="project-card-number">PROJECT / 005</span>
+                            <span class="project-card-open">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </div>
+
+                        <div class="project-card-content">
+                            <div class="project-card-meta">
+                                <span>WEB DEVELOPMENT</span>
+                                <span>PERSONAL PROJECT</span>
+                            </div>
+                            <h3>Network Engineering Portfolio</h3>
+                            <p>
+                                A responsive engineering portfolio
+                                built to present technical projects,
+                                documentation and practical work.
+                            </p>
+                            <div class="project-card-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-card-footer">
+                                <span class="project-status">
+                                    <i></i> Completed
+                                </span>
+                                <span class="project-explore">
+                                    Explore project <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="projects-footer reveal">
+                    <p>Technical work · Practical labs · Documented results</p>
+                    <a class="button button-secondary" href="https://github.com/Raihan-Uddin-Munna?tab=repositories"
+                        target="_blank" rel="noopener noreferrer">
+                        View GitHub repositories
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJECT CASE STUDY MODAL -->
+        <dialog class="project-modal" id="projectModal" aria-labelledby="modalTitle">
+
+            <div class="modal-shell">
+
+                <header class="modal-header" id="modalHeader">
+
+                    <button class="modal-back" id="modalBack" type="button">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <span>Projects</span>
+                    </button>
+
+                    <div class="modal-header-center">
+                        <span class="modal-window-dots">
+                            <i></i><i></i><i></i>
+                        </span>
+                        <span>CASE STUDY / <span id="modalNumber">001</span></span>
+                    </div>
+
+                    <button class="modal-close" id="modalClose" type="button" aria-label="Close modal">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+
+                </header>
+
+                <div class="modal-progress">
+                    <span id="modalProgressBar"></span>
+                </div>
+
+                <div class="modal-scroll" id="modalScroll" tabindex="0">
+
+                    <section class="modal-intro">
+                        <div class="modal-eyebrow-row">
+                            <p class="eyebrow" id="modalCategory"></p>
+                            <span class="modal-status" id="modalStatus"></span>
+                        </div>
+
+                        <h2 id="modalTitle">Project title</h2>
+                        <p class="modal-description" id="modalDescription"></p>
+
+                        <div class="modal-quick-facts" id="modalQuickFacts"></div>
+                    </section>
+
+                    <div class="case-study-content">
+
+                        <nav class="case-tabs" id="caseTabs" aria-label="Project documentation tabs">
+
+                            <button class="case-tab active" data-tab="overview" aria-selected="true"
+                                role="tab">Overview</button>
+
+                            <button class="case-tab" data-tab="topology" aria-selected="false"
+                                role="tab">Topology</button>
+
+                            <button class="case-tab" data-tab="configuration" aria-selected="false"
+                                role="tab">Configuration</button>
+
+                            <button class="case-tab" data-tab="verification" aria-selected="false"
+                                role="tab">Verification</button>
+
+                            <button class="case-tab" data-tab="troubleshooting" aria-selected="false"
+                                role="tab">Troubleshooting</button>
+
+                            <button class="case-tab" data-tab="evidence" aria-selected="false"
+                                role="tab">Evidence</button>
+
+                        </nav>
+
+                        <div class="case-panel" id="casePanel" role="tabpanel" tabindex="0">
+                            <div id="caseContent"></div>
+                        </div>
+
+                    </div>
+
+                    <section class="modal-related">
+
+                        <div>
+                            <p class="eyebrow">CONTINUE EXPLORING</p>
+                            <h3>More technical work</h3>
+                        </div>
+
+                        <div class="modal-navigation">
+                            <button class="modal-nav-button" id="modalPrevious" type="button">
+                                <i class="fa-solid fa-arrow-left"></i>
+                                Previous
+                            </button>
+
+                            <button class="modal-nav-button" id="modalNext" type="button">
+                                Next
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <!-- <button class="modal-back-top" id="modalBackTop" type="button">
+                    <i class="fa-solid fa-arrow-up"></i>
+                    Back to top
+                </button> -->
+
+                <footer class="modal-footer">
+                    <span>RAIHAN NETWORK LAB / PROJECT DOCUMENTATION</span>
+                    <button id="modalFooterBack" type="button">
+                        Back to projects
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                </footer>
+
+            </div>
+        </dialog>
+        <!-- IMAGE LIGHTBOX -->
+        <dialog class="modal-lightbox" id="modalLightbox">
+
+            <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close image">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="lightbox-navigation">
+                <button type="button" id="lightboxPrevious" aria-label="Previous image">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+
+                <button type="button" id="lightboxNext" aria-label="Next image">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <img id="lightboxImage" src="" alt="">
+            <p id="lightboxCaption"></p>
+
+        </dialog>
+
+        <!-- Credentials -->
+
+        <!-- Credentials -->
+        <section class="section section-anchor" id="credentials">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">05 / CREDENTIALS</p>
+                        <h2>Learning backed by<br><span class="text-accent">structured training.</span></h2>
+                    </div>
+                    <p class="section-intro">
+                        A clear view of my education, current training, and ongoing
+                        professional development.
+                    </p>
+                </div>
+
+                <div class="credentials-grid">
+                    <article class="credential-card reveal">
+                        <div class="credential-top">
+                            <span class="credential-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                            <span class="credential-status">IN PROGRESS</span>
+                        </div>
+                        <p class="credential-type">EDUCATION</p>
+                        <h3>BSc in Computer Science &amp; Engineering</h3>
+                        <p>Undergraduate study with a foundation in computing and software concepts.</p>
+                        <div class="credential-bottom"><span>Academic qualification</span><i
+                                class="fa-solid fa-arrow-right"></i></div>
+                    </article>
+
+                    <article class="credential-card reveal delay-1">
+                        <div class="credential-top">
+                            <span class="credential-icon"><i class="fa-solid fa-network-wired"></i></span>
+                            <span class="credential-status">TRAINING</span>
+                        </div>
+                        <p class="credential-type">NETWORKING</p>
+                        <h3>CCNA Coursework</h3>
+                        <p>Structured study and hands-on practice in switching, routing, IP services, and
+                            troubleshooting.</p>
+                        <div class="credential-bottom"><span>Coursework / lab practice</span><i
+                                class="fa-solid fa-arrow-right"></i></div>
+                    </article>
+
+                    <article class="credential-card reveal delay-2">
+                        <div class="credential-top">
+                            <span class="credential-icon"><i class="fa-solid fa-router"></i></span>
+                            <span class="credential-status">TRAINING</span>
+                        </div>
+                        <p class="credential-type">MIKROTIK</p>
+                        <h3>MTCNA Coursework</h3>
+                        <p>Learning RouterOS fundamentals, routing, firewall basics, and network administration.</p>
+                        <div class="credential-bottom"><span>Coursework / exam status to update</span><i
+                                class="fa-solid fa-arrow-right"></i></div>
+                    </article>
+
+
+                    <!-- British Council English Certificate -->
+                    <article class="credential-card reveal delay-1">
+                        <div class="credential-top">
+                            <span class="credential-icon">
+                                <i class="fa-solid fa-language"></i>
+                            </span>
+                            <span class="credential-status">COMPLETED</span>
+                        </div>
+
+                        <p class="credential-type">ENGLISH LANGUAGE</p>
+
+                        <h3>English Language Course</h3>
+
+                        <p>
+                            Completed English language training through the British Council,
+                            developing communication, comprehension, and practical English skills.
+                        </p>
+
+                        <div class="credential-bottom">
+                            <span>British Council</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- <div class="credentials-note reveal">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <p>
+                        This section intentionally distinguishes training from earned credentials.
+                        Add a certification badge, issue date, and verification link only after
+                        the credential has been officially awarded.
+                    </p>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Terminal -->
+        <section class="section section-muted section-anchor" id="terminal">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">06 / TERMINAL</p>
+                        <h2>A small window into<br><span class="text-accent">my workflow.</span></h2>
+                    </div>
+                    <p class="section-intro">
+                        Try a few simple commands. This is a portfolio demo terminal,
+                        not a real operating-system shell.
+                    </p>
+                </div>
+
+                <div class="terminal-window reveal">
+                    <div class="terminal-titlebar">
+                        <div class="terminal-window-dots"><i></i><i></i><i></i></div>
+                        <span>raihan@network-lab: ~</span>
+                        <button class="terminal-clear" id="terminalClear" type="button">CLEAR</button>
+                    </div>
+
+                    <div class="terminal-screen" id="terminalScreen" aria-live="polite">
+                        <p class="terminal-welcome">Raihan Network Lab <span>v1.0</span></p>
+                        <p>Type <code>help</code> to see the available commands.</p>
+                        <p class="terminal-output"><span class="terminal-ok">●</span> Ready for input.</p>
+                    </div>
+
+                    <form class="terminal-input-row" id="terminalForm" autocomplete="off">
+                        <label for="terminalInput"><span>raihan@lab</span> <b>~</b> $</label>
+                        <input id="terminalInput" name="command" type="text" spellcheck="false" autocapitalize="off"
+                            placeholder="type help and press Enter" aria-label="Terminal command">
+                        <button type="submit" aria-label="Run command"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="terminal-hint">AVAILABLE: help · whoami · skills · projects · contact · clear</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Future interests -->
+        <section class="section section-anchor" id="interests">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">07 / FUTURE INTERESTS</p>
+                        <h2>Where I'm heading<br><span class="text-accent">next.</span></h2>
+                    </div>
+                    <p class="section-intro">
+                        Long-term areas I want to explore after strengthening
+                        networking, operating systems, and troubleshooting fundamentals.
+                    </p>
+                </div>
+
+                <div class="interests-grid">
+                    <article class="interest-card reveal">
+                        <span class="interest-number">01</span>
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h3>Network Security</h3>
+                        <p>Access control, secure network design, firewall policy, and segmentation.</p>
+                        <span class="interest-status">FUTURE FOCUS</span>
+                    </article>
+                    <article class="interest-card reveal delay-1">
+                        <span class="interest-number">02</span>
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                        <h3>SOC &amp; SIEM</h3>
+                        <p>Log analysis, alert triage, network visibility, and incident response fundamentals.</p>
+                        <span class="interest-status">FUTURE FOCUS</span>
+                    </article>
+                    <article class="interest-card reveal delay-2">
+                        <span class="interest-number">03</span>
+                        <i class="fa-solid fa-wave-square"></i>
+                        <h3>Traffic Analysis</h3>
+                        <p>Using packet captures and protocol knowledge to understand normal and suspicious activity.
+                        </p>
+                        <span class="interest-status">FUTURE FOCUS</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section section-muted section-anchor" id="contact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">08 / CONTACT</p>
+                        <h2>Let's talk about<br><span class="text-accent">networks &amp; opportunities.</span></h2>
+                    </div>
+                    <p class="section-intro">
+                        Have a junior networking opportunity, a technical question,
+                        or an idea for a project? Feel free to reach out.
+                    </p>
+                </div>
+
+                <div class="contact-layout">
+                    <div class="contact-info reveal">
+                        <div class="contact-highlight">
+                            <span class="contact-highlight-icon"><i class="fa-regular fa-paper-plane"></i></span>
+                            <p>Open to learning, collaboration, and suitable junior networking opportunities.</p>
+                        </div>
+
+                        <div class="contact-links">
+                            <a class="contact-link" href="https://github.com/Raihan-Uddin-Munna" target="_blank"
+                                rel="noopener">
+                                <span class="contact-link-icon"><i class="fa-brands fa-github"></i></span>
+                                <span><small>GITHUB</small><strong>Raihan-Uddin-Munna</strong></span>
+                                <i class="fa-solid fa-arrow-up-right-from-square contact-link-arrow"></i>
+                            </a>
+
+                            <a class="contact-link" id="emailLink" href="mailto:your-email@example.com">
+                                <span class="contact-link-icon"><i class="fa-regular fa-envelope"></i></span>
+                                <span><small>EMAIL</small><strong
+                                        id="emailDisplay">your-email@example.com</strong></span>
+                                <i class="fa-solid fa-arrow-up-right-from-square contact-link-arrow"></i>
+                            </a>
+
+                            <a class="contact-link" id="whatsappLink" href="https://wa.me/8801XXXXXXXXX" target="_blank"
+                                rel="noopener">
+                                <span class="contact-link-icon"><i class="fa-brands fa-whatsapp"></i></span>
+                                <span><small>WHATSAPP</small><strong>Mobile : 01882-826691 <Br> Message me</strong></span>
+                                <i class="fa-solid fa-arrow-up-right-from-square contact-link-arrow"></i>
+                            </a>
+
+                            <a class="contact-link" id="linkedinLink" href="https://www.linkedin.com/" target="_blank"
+                                rel="noopener">
+                                <span class="contact-link-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+                                <span><small>LINKEDIN</small><strong>Professional profile</strong></span>
+                                <i class="fa-solid fa-arrow-up-right-from-square contact-link-arrow"></i>
+                            </a>
+                        </div>
+
+                        <p class="contact-small-note">
+                            Replace the placeholder email, WhatsApp number, and LinkedIn URL
+                            in <code>script10.js</code> with your real contact details.
+                        </p>
+                    </div>
+
+                    <form class="contact-form reveal delay-1" id="contactForm">
+                        <div class="form-heading">
+                            <div>
+                                <small>CONTACT FORM</small>
+                                <h3>Send a message</h3>
+                            </div>
+                            <i class="fa-regular fa-message"></i>
+                        </div>
+
+                        <label class="form-field">
+                            <span>Your name</span>
+                            <input id="senderName" name="name" type="text" placeholder="Enter your name"
+                                autocomplete="name" required>
+                        </label>
+
+                        <label class="form-field">
+                            <span>Your email</span>
+                            <input id="senderEmail" name="email" type="email" placeholder="you@example.com"
+                                autocomplete="email" required>
+                        </label>
+
+                        <label class="form-field">
+                            <span>Message</span>
+                            <textarea id="senderMessage" name="message" rows="5"
+                                placeholder="What would you like to discuss?" required></textarea>
+                        </label>
+
+                        <button class="button button-primary contact-submit" type="submit">
+                            Prepare email <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <p class="form-note" id="formNote" aria-live="polite">
+                            Your email app will open with the message ready to review.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-top">
+            <a href="#home" class="brand footer-brand">
+                <span class="brand-mark">R<span>.</span></span>
+                <span class="brand-copy">
+                    <strong>RAIHAN<span>.</span></strong>
+                    <small>NETWORKING / SECURITY</small>
+                </span>
+            </a>
+
+            <p>Learning with purpose. Building with consistency.</p>
+
+            <div class="footer-socials">
+                <a href="https://github.com/Raihan-Uddin-Munna" target="_blank" rel="noopener" aria-label="GitHub"><i
+                        class="fa-brands fa-github"></i></a>
+                <a id="footerEmail" href="mailto:your-email@example.com" aria-label="Email"><i
+                        class="fa-regular fa-envelope"></i></a>
+                <a id="footerLinkedIn" href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                    aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <span>© <span id="year"></span>_Mohammed Raihan</span>
+            <span>Designed for the next step in networking.</span>
+            <a href="#home">BACK TO TOP <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
